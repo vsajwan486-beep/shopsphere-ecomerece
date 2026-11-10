@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details | ShopSphere</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="app-container">
+
+    <header class="header">
+        <a href="index.html" class="logo">Shop<span>Sphere</span></a>
+
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+
+        <div class="header-actions">
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">☀️</button>
+            <a href="cart.html" class="cart-link">
+                🛒 Cart <span id="cart-count">0</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="product-details-page">
+
+        <a href="shop.html" class="back-link">← Back to Shop</a>
+
+        <section id="product-details" class="product-details">
+            <!-- Product details generated using JavaScript -->
+        </section>
+
+        <section id="product-not-found" class="empty-cart" hidden>
+            <span>🔍</span>
+            <h2>Product Not Found</h2>
+            <p>The product you're looking for doesn't exist.</p>
+            <a href="shop.html" class="primary-button">Continue Shopping</a>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 ShopSphere. All rights reserved.</p>
+        <p>Demo shopping website · No real payments accepted</p>
+    </footer>
+
+</div>
+
+<script src="js/products.js"></script>
+<script src="js/common.js"></script>
+<script src="js/product.js"></script>
+
+</body>
+</html>
